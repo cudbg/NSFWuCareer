@@ -1,0 +1,14 @@
+<div class="pubs">
+  <ol connect="rows">
+    {% for p in {{site.data.pubs}} %}
+      <li class="paper" data-selected="{{p.selected}}">
+        <a class="title" href="{{p.url}}">{{p.title}}</a>
+          <div class="authors">{{p.authors}}</div>
+          <span class="conf">{{{p.conf}}</span>
+          {% if p.code %}<a class="code" href="{{p.code}}">Code</a>{% endif %}
+          {% if p.slides %}<a class="slides" href="{{p.slides}}">Slides</a>{% endif %}
+          {% if p.comments %}<span class="comments">{{p.comments}}</span>{% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</div>

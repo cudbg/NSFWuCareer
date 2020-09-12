@@ -1,0 +1,23 @@
+# The following are required
+#
+# - authors: eugene wu, super man
+#   conf: SIGMOD 2016
+#   tags:
+#   - vis
+#   title: Title of the paper
+#   url: url to the paper
+#
+# The following are optional
+#
+#   slides: URL to slides
+#   code: URL to code/github
+#   comments: any comments
+#
+#
+# Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag
+#
+
+- title: ''
+  authors: 
+  conf: 
+  url:

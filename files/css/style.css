@@ -1,0 +1,126 @@
+
+html{
+  background: white;
+  font-family: "Open Sans", georgia, helvetica, arial;
+  color: #666;
+}
+
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+}
+
+a {
+  color: hsla(200, 70%, 55%, 1);
+}
+
+h4 {
+  font-size: 11pt;
+}
+.body h4 {
+  margin-top: 2em;
+  color: hsla(200, 70%, 55%, 1);
+}
+.body b, .body strong {
+  color: #555;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 1.5em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+.header {
+  padding-bottom: 1em;
+  color: hsla(200, 70%, 55%, 1);
+}
+.header h1 {
+	font-family: 'Lora', serif;
+  font-family: 'Crimson Text', serif;
+	font-size: 40px;
+	font-weight: 600;
+  letter-spacing: 4px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.header img {
+  border: 1px solid black;
+}
+.header div {
+  vertical-align: middle;
+}
+
+.stitle {
+  text-align: right;
+  line-height: 12pt;
+	font-family: Raleway;
+  font-size: 16pt;
+  font-weight: 400;
+  color: hsla(200, 70%, 55%, 1);
+}
+
+.project .stitle {
+  text-align: right;
+  line-height: 12pt;
+  font-size: 12pt;
+  font-weight: 600;
+  color: #aaa;
+}
+
+
+
+.row {
+  margin: 20px;
+}
+.row.project {
+	margin: 20px;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+li {
+  margin-bottom: .7em;
+}
+.tight li {
+  margin-bottom: 0px;
+}
+
+
+
+
+#cudbg {
+  position:absolute; top:0px; left:0px; padding:0px; border: none; box-shadow: none; width: 100px;
+}
+
+
+
+@media  (max-width:1300px) {
+}
+
+
+
+@media  (max-width:991px) {
+  html, body {
+    font-size: 16pt;
+  }
+  h1 {
+    font-size: 22pt;
+  }
+  h4 {
+    margin-top: 2em;
+    font-size: 20pt;
+  }
+  .logo {
+    display: none;
+  }
+  .stitle {
+    text-align: left;
+    margin-bottom: .5em;
+    font-size: 20pt;
+  }
+}
+
