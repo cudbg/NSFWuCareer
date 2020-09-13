@@ -1,3 +1,3 @@
-# NSFQueryOpt4Apps
+# NSF Wu CAREER
 
-Update \_data/pubs.jml to add papers
+Update \_data/pubs.yml to add papers
