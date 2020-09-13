@@ -1,11 +1,11 @@
 ---
 layout: project
 color: "#64bd78"
-logo: NSF IIS-2008295
+logo: Query Optimizaton for Data Intensive Applications
 ---
 
 <div class="callout">
-Query Optimizaton for Data Intensive Applications
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295">NSF IIS-2008295</a>
 </div>
 
 Modern database management systems (DBMSs) employ sophisticated query optimization techniques that enable the generation of efficient execution plans for queries over very large data sets. A variety of other applications also process large data sets, but cannot leverage database-style query optimization for their code. In this project, an open-source programming language compiler will be enhanced with database-style query optimization capabilities. Data-intensive parts of ordinary programs will be executed in chunks using different execution plans. Based on feedback from earlier chunks, alternative plans might be used for later chunks. The compiler could be used for a variety of data-intensive applications, allowing all of them to benefit from this class of performance optimizations.
