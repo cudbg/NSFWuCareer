@@ -16,8 +16,8 @@ Existing query optimization techniques for in-memory processing are limited in s
 
 ## Principal Investigators
 
-* Kenneth Ross, Columbia University
-* Eugene Wu, Columbia University 
+* <a href="http://www.cs.columbia.edu/~kar">Kenneth Ross</a>, Columbia University
+* <a href="http://www.cs.columbia.edu/~ewu">Eugene Wu</a>, Columbia University 
 
 ## Open Source Software
 
