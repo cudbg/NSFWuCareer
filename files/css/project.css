@@ -9,7 +9,7 @@ h1 {
   margin-bottom: 2em;
 }
 h1 #logo {
-  float:left; font-size: 50pt;
+  float:left; font-size: 50pt; line-height: 53pt;
 }
 h1 #tagline {
   margin-top: -3pt;
