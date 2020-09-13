@@ -1,25 +1,27 @@
 ---
 layout: project
-color: "#64bd78"
-logo: Query Optimization for Data Intensive Applications
+color: "#a864bd"
+logo: Visual Database Interfaces
 ---
 
 <div class="callout">
-  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2008295">NSF IIS-2008295</a>
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1845638&HistoricalAwards=false">NSF IIS-1845638</a>
 </div>
 
-Modern database management systems (DBMSs) employ sophisticated query optimization techniques that enable the generation of efficient execution plans for queries over very large data sets. A variety of other applications also process large data sets, but cannot leverage database-style query optimization for their code. In this project, an open-source programming language compiler will be enhanced with database-style query optimization capabilities. Data-intensive parts of ordinary programs will be executed in chunks using different execution plans. Based on feedback from earlier chunks, alternative plans might be used for later chunks. The compiler could be used for a variety of data-intensive applications, allowing all of them to benefit from this class of performance optimizations.
+As access to data becomes more widespread, more and more people want to benefit from the ability to analyze data. Unfortunately, the dominant database interface ? SQL ? is very complex and inaccessible. It is possible to design and develop custom interactive form and visualization interfaces that are easy to understand and efficient to use, however, they are out of reach for all but the most widespread (general-purpose) or highest value tasks due to the considerable time and resources to build them. Unfortunately, this overlooks a long tail of simple analyses that may never see millions of users but are still crucial towards making scientific progress, reaching individual goals, and seizing commercial opportunities. Thus, there is a need to drastically reduce the costs to build new interfaces. The proposed research will develop scalable techniques to automatically generate interactive visual analysis interfaces that are customized to the user?s analysis needs and preferences. This research can have a transformative impact on data-driven fields such as earth sciences or bioinformatics, and help democratize access to data. Finally, the focus on data interfaces is naturally suited as an educational tool to introduce data analysis to students and the public.
 
-Existing query optimization techniques for in-memory processing are limited in several ways: (a) they are not extensively used outside relational database management systems; (b) they are limited to a handful of relational operators, and do not cover access patterns or dynamically-defined functions found in other data-analysis scenarios; (c) they treat the underlying compiler as a black-box, with unpredictable performance depending on which compiler is used with which compiler settings; (d) they often bake-in design choices that may be appropriate for usage within a particular DBMS, but not for more general cases. This project directly addresses these challenges by optimizing data-analysis style queries expressed as tight loops in a conventional imperative programming language. This project will extend an open-source compiler (GraalVM/Truffle) with both known and novel optimization techniques that will automatically be applied whenever the compiler identifies that a loop is time-consuming. Integration into the compiler allows many applications to efficiently process large data sets. The system will support dynamic queries involving user-defined functions and arbitrary access patterns. Database-style and compiler optimizations will co-exist in one system, eliminating some of the mismatches that happen when the compiler is used as a black-box by a DBMS. The system will tune a variety of run-time execution parameters automatically, with minimal guidance from the programmer. The extended compiler will be validated by developing an interactive data exploration application that will allow users to dynamically specify and analyze a variety of large in-memory datasets.
+This project develops scalable techniques to generate Visual Database Interfaces (VDIs), each tailored to specific analysis tasks. Rather than conform to the interface defined by SQL or a generic database exploration tool, users can use VDIs that are more accessible to non-technical users, more efficient for performing tasks, and reduces user reliance on technical experts. To bootstrap the interface generation process, the PI proposes to leverage logs of existing analysis queries and workflows that users have previously attempted. Using these logs, the PI will develop two novel and complementary systems. The first system scalably extracts analyses from query logs, and automatically generates interactive analysis interfaces that are customized to the queries in each analysis. The second is a human-in-the-loop interface design tool that helps designers further improve the interaction design of VDIs with consideration of the optimizations and systems modifications need to ensure the interactions are responsive. It does so by bridging the divide between interaction design requirements that affect the end-user?s experience, and data structure and system architecture decisions that affect resource requirements. The project will evaluate VDIs based on the ability for users to complete analysis tasks as compared to using legacy or manually designed interfaces. The PI will also evaluate VDIs in university courses on Data Science, and share the curricula publicly along with the software.
 
 
 
 ## Principal Investigators
 
-* <a href="http://www.cs.columbia.edu/~kar">Kenneth Ross,</a> Columbia University
-* <a href="http://www.cs.columbia.edu/~ewu">Eugene Wu,</a> Columbia University 
+* [Eugene Wu](https://www.eugenewu.net), Columbia University 
 
+<!--
 ## Open Source Software
+-->
 
 ## Galleries and Tutorials
 
+* Relational Visualization Tutorial: [Short Paper](./files/tutorial-vis-sigmod19.pdf), [Slides](#)

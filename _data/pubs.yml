@@ -17,7 +17,28 @@
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag
 #
 
-- title: ''
-  authors: 
-  conf: 
-  url:
+- title: 'Physical Visualization Design'
+  authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
+  conf: SIGMOD (demo) 2020
+  url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
+- title: 'Monte Carlo Tree Search for Generating Interactive Data Analysis Interfaces'
+  authors: Yiru Chen, Eugene Wu
+  conf: Intelligent Process Automation (IPA) 2020
+  url: https://arxiv.org/abs/2001.01902
+- title: 'Towards Democratizing Relational Data Visualization'
+  url: https://www.dropbox.com/s/rrl5wavo6xuw7nc/tutorial-vis-sigmod19.pdf?dl=0
+  authors: Nan Tang, Eugene Wu, Guoliang Li
+  selected: true
+  conf: SIGMOD 2019 Tutorial
+  tags:
+    - vis
+    - db
+- title: 'Precision Interfaces'
+  authors: Qianrui Zhang, Haoci Zhang, Viraj Rai, Thibault Sellam, Eugene Wu
+  conf: SIGMOD 2019
+  url: https://arxiv.org/abs/1904.02344
+  selected: true
+  tags:
+    - vis
+    - db
+
