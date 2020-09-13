@@ -1,7 +1,7 @@
 ---
 layout: project
 color: "#64bd78"
-logo: Query Optimizaton for Data Intensive Applications
+title: Query Optimization for Data Intensive Applications
 ---
 
 <div class="callout">
