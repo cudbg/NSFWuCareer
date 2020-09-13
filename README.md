@@ -1,3 +1,3 @@
-# NSFDeclarativeVis
+# NSFQueryOpt4Apps
 
-Updated \_data/pubs.jml to add papers
+Update \_data/pubs.jml to add papers
