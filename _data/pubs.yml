@@ -18,6 +18,55 @@
 #
 
 - title: 'Physical Visualization Design'
+  future: true
+  authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
+  conf: VLDB 2022 (in progress)
+- title: 'Visual Composition Algebra'
+  authors: Eugene Wu
+  future: true
+  conf: TVCG 2021 (in review)
+- title: 'Reptile: Aggregation-level Explanations for Hierarchical Data'
+  future: true
+  authors: Zachary Huang, Eugene Wu
+  conf: SIGMOD 2022 (in review)
+  tags:
+    - dbexplain
+- title: 'PI2: Generating Visual Analysis Interfaces From Queries'
+  authors: Yiru Chen, Eugene Wu
+  future: true
+  conf: VLDB 2022 (in review)
+- title: 'Impact of Cognitive Biases on Progressive Visualization'
+  authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
+  conf: TVCG 2021
+  rate: 24.6
+  url: https://www.dropbox.com/s/kzjotdoq9zpmuxf/marianne-bias-tvcg20-cr.pdf?dl=0
+  tags:
+    - vis
+- title: 'DIEL: Interactive Visualization Beyond the Here and Now'
+  authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
+  conf: VIS 2021 
+  tags:
+    - vis
+- title: 'Dynamic Breakpoints for Y-axis Scales'
+  authors: Jacob Fisher, Remco Chang, Eugene Wu
+  conf: InfoVIS  2021 (short paper)
+  short: true
+  tags:
+    - vis
+- title: 'Facilitating Exploration with Interaction Snapshots under High Latency'
+  authors: Yifan Wu, Remco Chang, Joe Hellerstein, Eugene Wu
+  conf: InfoVIS (short paper) 2020
+  short: true
+  url: https://arxiv.org/pdf/1806.01499.pdf
+  tags:
+    - db
+    - vis
+- title: 'Continuous Prefetch for Interactive Data Applications'
+  authors: Haneen Mohammed, Ziyun Wei, Ravi Netravali, Eugene Wu
+  conf: VLDB 2020
+  selected: true
+  rate: 24.8
+- title: 'Physical Visualization Design'
   authors: Lana Ramjit, Zhaoning Kong, Ravi Netravali, Eugene Wu
   conf: SIGMOD (demo) 2020
   url: https://www.dropbox.com/s/i6dngaqr1xyo9fg/pvd-sigmod20demo-cr.pdf?dl=0
