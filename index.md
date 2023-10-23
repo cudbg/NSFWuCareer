@@ -18,9 +18,9 @@ This project develops scalable techniques to generate Visual Database Interfaces
 
 * [Eugene Wu](https://www.eugenewu.net), Columbia University 
 
-<!--
 ## Open Source Software
--->
+
+* [Learned Interfaces](https://github.com/learnedinterfaces/PI2): generate interfaces from natural language and queries.
 
 ## Galleries and Tutorials
 

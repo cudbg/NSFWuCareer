@@ -17,6 +17,94 @@
 # Project specific tags are fine as well.  For instance, precision interfaces has a custom "pi" tag
 #
 
+
+
+
+- title: "A Hypothesis-Based Framework for Evaluating Visualization and Visual Analytics Systems"
+  authors: Ashley Suh, Ab Mosca, Eugene Wu, Remco Chang
+  future: true
+  conf: In Review 2023
+- title: 'Lightweight Materialization for Fast Dashboards Over Joins '
+  authors: Zachary Huang, Eugene Wu
+  conf: SIGMOD 2024
+  url: https://arxiv.org/abs/2210.03851
+  tags:
+    - db
+    - ml
+- title: 'Teaching Data Science by Visualizing Data Table Transformations: Pandas Tutor for Python, Tidy Data Tutor for R, and SQL Tutor'
+  authors: Sam Lau, Sean Kross, Eugene Wu, Philip Guo
+  short: true
+  conf: DataEd at SIGMOD 2023
+  url: https://www.dropbox.com/s/ibp4j6e3r6dykdd/sqltutor-dataed23-cr.pdf?dl=0
+  tags:
+    - db
+    - vis
+- title: "Analysis Errors Over Semantic Layers and How To Avoid Them"
+  authors: Zezhou Huang, Pavan Kalyan, Eugene Wu
+  short: true
+  url: https://arxiv.org/pdf/2307.00417.pdf
+  conf: HILDA at SIGMOD 2023
+  tags:
+    - vis
+    - db
+- title: "DIG: The Data Interface Grammar"
+  authors: Yiru Chen, Jeffrey Tao, Eugene Wu
+  short: true
+  conf: HILDA at SIGMOD 2023
+  selected: true
+  url: https://www.dropbox.com/s/bhwikxq8932dsg5/dig-hilda23-cr.pdf?dl=0
+  tags:
+    - vis
+    - db
+- title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progressive Visualization of Time Series"
+  authors: Yunhai Wang, Yuchun Wang, Xin Chen, Yue Zhao, Fan Zhang, Eugene Wu, Chi-Wing Fu, Xiaohui Yu
+  conf: SIGMOD 2023
+  url: https://dl.acm.org/doi/10.1145/3589290
+  tags:
+    - vis
+    - db
+
+
+- title: 'NL2INTERFACE: Interactive Visualization Interface Generation from Natural Language Queries'
+  authors: Yiru Chen, Ryan Li, Austin Mac, Tianbao Xie, Tao Yu, Eugene Wu
+  short: true
+  conf:  VIS nlviz workshop 2022
+  url: https://arxiv.org/abs/2209.08834
+  tags: 
+    - vis
+- title: 'How Do Captions Affect Visualization Reading?'
+  authors: Shelly Cheng, Hazel Zhu, Eugene Wu
+  short: true
+  conf: VIS Viscomm 2022
+  url: https://arxiv.org/abs/2205.01263
+  tags:
+    - vis
+- title: 'Extending the View Composition Algebra to Hierarchical Data'
+  authors: Eugene Wu
+  conf: arXiV 2022
+  short: true
+  url: https://arxiv.org/abs/2205.01283
+  tags:
+    - vis
+- title: 'A Grammar for Hypothesis-Driven Visual Analysis'
+  authors: Ashley Suh, Yilan Jiang, Ab Mosca, Eugene Wu, Remco Chang
+  url: https://arxiv.org/abs/2204.14267
+  conf: ArXiV 2022
+  tags:
+    - vis
+- title: 'Interactive Interface Generation in Notebooks'
+  authors: Jeffrey Tao, Yiru Chen, Eugene Wu
+  url: https://www.dropbox.com/s/s1p1byz7tlquj5v/pi2-sigmod22demo-camera.pdf?dl=0
+  conf: SIGMOD 2022 demo 
+  tags:
+    - vis
+
+
+
+
+
+
+
 - title: 'Physical Visualization Design'
   future: true
   authors: Lana Ramjit, Subrata Mitra, Ravi Netravali, Eugene Wu
